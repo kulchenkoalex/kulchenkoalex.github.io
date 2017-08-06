@@ -12,24 +12,39 @@
 	    position:absolute;
 	    top:19px;   
 	    left:20px;
+	    height: 200px;
 	}
 	.city {
-		float: left;
-		margin-top: 0;
+		clear: left;
+		padding: 0;
 	}
 	.phone {
-		float: left;
-		margin-top: 50px;
-		margin-left: 0;
+		clear: left;
+		padding: 0;
 	}
 	.address {
-		float: left;
-		margin-top: 65px;
+		clear: left;
+		padding: 0;
 	}
 	.social-icon {
 		float: left;
-		margin-top: 80px;
+		clear: left;
 	}
+
+
+
+
+	.slider-img50 {
+		float: left;
+		clear: left;
+		width: 100%;
+	}
+	.slider-img25 {
+		width: 50%;
+		clear: left;
+		float: left;
+	}
+
 }
 
 
@@ -265,6 +280,14 @@ button {
 	float: left;
 	width: 25%;
 }
+@media screen and (min-width:320px) and (max-width:800px) {
+	.slider-img50 {
+		width: 100%;
+	}
+	.slider-img25 {
+		width: 50%;
+	}
+	}
 .slider-logo img {
 	display: block;
     margin: 0 auto; 
@@ -302,6 +325,11 @@ h1, h2 {
 	margin-top: 10px;
 	width: 30%;
 }
+@media screen and (min-width:320px) and (max-width:800px) {
+	.logo-info {
+		width: 100%;
+	}
+	}
 .logo-company {
 	padding: 25px 0;
 	float: left;
