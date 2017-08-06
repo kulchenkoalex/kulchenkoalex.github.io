@@ -4,8 +4,8 @@
 }
 
 html {
-	width: 1400px;
-		margin: 0 auto;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 body {
@@ -117,7 +117,7 @@ select {
 	display: inline-block;
 	margin-left: 120px;
 }
-.subtitle1, .subtitle2, .subtitle3 {
+.mysubtitle { 
 	float: left;
 	padding-right: 10px;
 	margin-left: 10px;
@@ -188,23 +188,46 @@ nav li a: hover {
 button {
 	background: white;
 	padding: 17px 30px;
+	border-radius: 8px;
 }
 
-.slider-block1, .slider-block2, .slider-block3 {
+.slider-block{
 	float: left;
+	width: 100%;
 }
- .slider-block2, .slider-block3 {
+ /*.slider-block2, .slider-block3 {
 	margin-top: -9px;
-}
-.slider-1, .slider-6, .slider-7 {
+}*/
+.slider-img50 {
 	float: left;
 	width: 50%;
 }
-.slider-2, .slider-3, .slider-4, .slider-5, .slider-8, .slider-9 {
+.slider-img50 {
+    display:inline-block;   
+    position:relative;
+ 
+}
+.slider-img50 span {
+    display:inline-block;
+    position:absolute;
+    top:145px;   
+    left:100px;
+    color: #bd2631;
+    font-size: 30px;
+    }
+
+.slider-img50 p {
+    display:inline-block;
+    position:absolute;
+    top:215px;   
+    left:100px;
+    color: #fff;
+    }
+.slider-img25, .slider-logo {
 	float: left;
 	width: 25%;
 }
-.slider-3, .slider-5, .slider-8 {
+.slider-logo {
 	position: relative;
 	top: 150px;
 	left: 100px;
@@ -212,6 +235,9 @@ button {
 
 h1, h2 {
 	color: #bd2631;
+}
+.logo-block1 {
+	width: 100%;
 }
 .logo-block1 strong {
 	font-size: 36px;
@@ -227,12 +253,13 @@ h1, h2 {
 	margin: 30px 0;
 }
 
-.logo-1, .logo-2, .logo-3 {
+.logo-info {
 	float: left;
-	margin-left: 92px;
+	margin-left: 30px;
 	margin-top: 10px;
+	width: 30%;
 }
-.logo-4, .logo-5, .logo-6, .logo-7, .logo-8 {
+.logo-company {
 	padding: 25px 0;
 	float: left;
 	width: 20%;
@@ -247,10 +274,21 @@ h1, h2 {
 	margin-top: 68px;
 	font-size: 36px;
 	color: #000;
+	display:inline-block;   
+    position:relative;
 }
 .CPA img {
 	float: right;
 }
+.CPA span {
+    display:inline-block;
+    position:absolute;
+    top:70px;   
+    left:660px;
+    color: #fff;
+    font-size: 36px;
+    }
+
 .logo-CPA {
 	float: left;
 	margin-left: 327px;
@@ -258,8 +296,9 @@ h1, h2 {
 }
 .slider-block5 {
 	float: left;
+	width: 100%;
 }
-.slider-1-5, .slider-2-5, .slider-3-5, .slider-4-5, .slider-5-5 {
+.slider-1-5 {
 	width: 20%;
 	float: left;
 	background: #bd2631;
@@ -282,7 +321,7 @@ h1, h2 {
 .contact_info p {
 	font-size: 12px;
 }
-.about_us, .recent_posts, .recent_tweets, .contact_information {
+.footer-info {
 	float: left;
 	width: 25%;
 }
@@ -290,7 +329,7 @@ h1, h2 {
 	width: 100%;
 	float: left;
  	background: #131313;
- 	color: white;
+ 	color: #fff;
  	height: 80px;
  	font-size: 12px;
  }
