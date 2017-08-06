@@ -1,3 +1,40 @@
+@media screen and (min-width:320px) and (max-width:800px) {
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.top_contact {
+		padding-top: 19px;
+		padding-left: 20px;
+	}
+	.address-all {
+		display:inline-block;
+	    position:absolute;
+	    top:19px;   
+	    left:20px;
+	}
+	.city {
+		float: left;
+		margin-top: 0;
+	}
+	.phone {
+		float: left;
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	.address {
+		float: left;
+		margin-top: 65px;
+	}
+	.social-icon {
+		float: left;
+		margin-top: 80px;
+	}
+}
+
+
+/**************/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -192,6 +229,7 @@ button {
 }
 
 .slider-block{
+	margin-top: 0;
 	float: left;
 	width: 100%;
 }
@@ -227,10 +265,15 @@ button {
 	float: left;
 	width: 25%;
 }
-.slider-logo {
-	position: relative;
-	top: 150px;
-	left: 100px;
+.slider-logo img {
+	display: block;
+    margin: 0 auto; 
+    padding: 150px 0;
+}
+
+.logo-red {
+	background: #bd2631;
+	width: 100%;
 }
 
 h1, h2 {
