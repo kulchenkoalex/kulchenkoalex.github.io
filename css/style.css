@@ -83,7 +83,7 @@ a: hover{
 /*****************  header  **********************/
 /*****************  1  **********************/
 
-.container {
+.container .clearfix:after {
 	max-width: 1400px;
 	width: 100%;
 	margin: 0 auto;
