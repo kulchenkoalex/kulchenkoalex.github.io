@@ -3,17 +3,6 @@
 		margin: 0;
 		padding: 0;
 	}
-	.top_contact {
-		padding-top: 19px;
-		padding-left: 20px;
-	}
-	.address-all {
-		display:inline-block;
-	    position:absolute;
-	    top:19px;   
-	    left:20px;
-	    height: 200px;
-	}
 	.city {
 		clear: left;
 		padding: 0;
@@ -27,8 +16,7 @@
 		padding: 0;
 	}
 	.social-icon {
-		float: left;
-		clear: left;
+		margin-top: 100px;
 	}
 
 
@@ -55,10 +43,6 @@
 	padding: 0;
 }
 
-html {
-	max-width: 1400px;
-	margin: 0 auto;
-}
 
 body {
 	font: 400 14px 'Hind', Arial, sans-serif;
@@ -99,6 +83,11 @@ a: hover{
 /*****************  header  **********************/
 /*****************  1  **********************/
 
+.container {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
 .top_contact {
 	height: 42px;
 	background: #ededed;
@@ -132,6 +121,14 @@ i {
 	margin-left: 26px;
 	padding-right: 2px;
 }
+@media screen and (min-width:320px) and (max-width:800px) {
+	.top_contact {
+	display:inline-block;
+    position:absolute;
+    background: white;
+    height: 140px;
+	}
+	}
 
 select {
 	background: black;
