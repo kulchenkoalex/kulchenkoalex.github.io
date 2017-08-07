@@ -1,4 +1,4 @@
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.city {
 		display: block;
 		width: 100%;
@@ -116,7 +116,7 @@ i {
 	margin-left: 26px;
 	padding-right: 2px;
 }
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.top_contact {
 	display:inline-block;
     position:absolute;
@@ -199,7 +199,7 @@ nav li a: hover {
 
 }
 
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.navigation {
 		width: 100%;
 		padding: 0;
@@ -247,7 +247,7 @@ nav li a: hover {
 	border-radius: 8px;
 }
 
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.no_button {
 		display: block;
 		margin-left: 20px;
@@ -299,7 +299,7 @@ nav li a: hover {
 	float: left;
 	width: 25%;
 }
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.slider-img50 {
 		width: 100%;
 	}
@@ -351,7 +351,7 @@ h1, h2 {
 	width: 20%;
 }
 
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.logo-info {
 		width: 100%;
 	}
@@ -402,7 +402,7 @@ h1, h2 {
 	color: #fff;
 	font-size: 18px;
 }
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.slider-1-5 {
 		display: block;
 		width: 60%;
@@ -445,7 +445,7 @@ h1, h2 {
   .copyright_block2 {
  	float: right;
 }
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen, handheld and (min-width:320px) and (max-width:800px) {
 	.copyright_block1 {
 		display: block;
 		width: 100%;
