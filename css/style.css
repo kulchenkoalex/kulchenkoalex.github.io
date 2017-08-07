@@ -1,22 +1,19 @@
-@media screen and (min-width:320px) and (max-width:800px) {
-	*{
-		margin: 0;
-		padding: 0;
-	}
+@media screen and (min-width:400px) and (max-width:800px) {
 	.city {
-		clear: left;
-		padding: 0;
+		display: block;
+		width: 100%;
 	}
 	.phone {
-		clear: left;
-		padding: 0;
+	display: block;
+		width: 100%;
 	}
 	.address {
-		clear: left;
-		padding: 0;
+		display: block;
+		width: 100%;
 	}
 	.social-icon {
-		margin-top: 100px;
+		display: block;
+		width: 100%;
 	}
 
 
@@ -119,7 +116,7 @@ i {
 	margin-left: 26px;
 	padding-right: 2px;
 }
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen and (min-width:400px) and (max-width:800px) {
 	.top_contact {
 	display:inline-block;
     position:absolute;
@@ -202,6 +199,20 @@ nav li a: hover {
 
 }
 
+@media screen and (min-width:400px) and (max-width:800px) {
+	.navigation {
+		width: 100%;
+		padding: 0;
+	}
+	nav li a{
+		display: block;
+		width: 100%;
+		font-size: 48px;
+		margin: 0 50px;
+	}
+
+}
+
 .search {
 	float: right;
 	margin-right: 27px;
@@ -236,6 +247,21 @@ nav li a: hover {
 	border-radius: 8px;
 }
 
+@media screen and (min-width:400px) and (max-width:800px) {
+	.no_button {
+		display: block;
+		margin-left: 20px;
+		width: 100%;
+		font-size: 20px;
+	}
+	.no_button span {
+		font-size: 16px;
+	}
+	.button {
+		display: block;
+		margin-top: 20px;
+	}
+}
 .slider-block{
 	margin-top: 0;
 	float: left;
@@ -273,7 +299,7 @@ nav li a: hover {
 	float: left;
 	width: 25%;
 }
-@media screen and (min-width:320px) and (max-width:800px) {
+@media screen and (min-width:400px) and (max-width:800px) {
 	.slider-img50 {
 		width: 100%;
 	}
@@ -318,18 +344,25 @@ h1, h2 {
 	margin-top: 10px;
 	width: 30%;
 }
-@media screen and (min-width:320px) and (max-width:800px) {
-	.logo-info {
-		width: 100%;
-	}
-	}
+
 .logo-company {
 	padding: 25px 0;
 	float: left;
 	width: 20%;
 }
 
-
+@media screen and (min-width:400px) and (max-width:800px) {
+	.logo-info {
+		width: 100%;
+	}
+	.logo-company {
+		width: 15%;
+		padding: 10px 10px;
+	}
+	.logo-company img {
+		width: 100%;
+	}
+	}
 /**********************/
 .CPA {
 	float: left;
@@ -369,6 +402,13 @@ h1, h2 {
 	color: #fff;
 	font-size: 18px;
 }
+@media screen and (min-width:400px) and (max-width:800px) {
+	.slider-1-5 {
+		display: block;
+		width: 50%;
+		margin: 0 100px;
+	}
+	}
 
 /********** footer *********/
 .contact_info {
@@ -404,5 +444,15 @@ h1, h2 {
  }
   .copyright_block2 {
  	float: right;
-
+}
+@media screen and (min-width:400px) and (max-width:800px) {
+	.copyright_block1 {
+		display: block;
+		width: 100%;
+	}
+	.copyright_block2 {
+		display: block;
+		width: 100%;
+	}
+	}
 
